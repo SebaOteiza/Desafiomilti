@@ -9,7 +9,7 @@ function validarRango(elemento){
     if(isNaN(numero)){
       alert('Ingrese solo números.');
       //elemento.focus();
-     // elemento.select();
+      //elemento.select();
       return false;
     }
     //Validamos que se cumpla el rango
@@ -25,7 +25,7 @@ function validarRango(elemento){
          document.write (numero + " x " + i + " = " + (numero* i ) + "<br>"); // aquí se escribe cada línea aparte, una detrás de otra - tomamos el valor de tabla  y lo * por i 
           //con el <br> le estamos diciendo al html que vamos a saltar de línea 
       }
-     // return false;
+      return false;
       }
       
     return true;
